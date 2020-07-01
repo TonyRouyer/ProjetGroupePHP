@@ -33,23 +33,23 @@
                 <ul class="navbar-nav">
                 <li class="nav-item">
                     <form action="id1.html" method="POST">
-                        <input type="submit" class="nav-link mx-3" name="page1"   value="Index" />
+                        <input type="submit" class="nav-link mx-3" name="page1"   value="<?= $xml->page[0]->menu; ?>" />
                     </form>
                 </li>
 
                 <li class="nav-item">
                     <form action="id2.html" method="POST">
-                        <input type="submit" class="nav-link mx-3"  name="page2"   value="Qui somme nous ?" />
+                        <input type="submit" class="nav-link mx-3"  name="page2"   value="<?= $xml->page[1]->menu; ?>" />
                     </form>
                 </li>
                 <li class="nav-item">
                     <form action="id3.html" method="POST">
-                        <input type="submit" class="nav-link mx-3"  name="page3" value="Avis" />
+                        <input type="submit" class="nav-link mx-3"  name="page3" value="<?= $xml->page[2]->menu; ?>" />
                     </form>
                 </li>
                 <li class="nav-item">
                     <form action="id4.html" method="POST">
-                        <input type="submit" class="nav-link mx-3"  name="page4"  value="Contact" />
+                        <input type="submit" class="nav-link mx-3"  name="page4"  value="<?= $xml->page[3]->menu; ?>" />
                     </form>
                 </li>
                 </ul>
@@ -93,7 +93,8 @@
                 </div>
             </div>
         </footer>
-
-
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     </body>
 </html>
