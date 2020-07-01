@@ -19,9 +19,9 @@
                     }
                 ?>
         </title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
     <nav class="navbar navbar-expand-lg">
@@ -36,7 +36,6 @@
                         <input type="submit" class="nav-link mx-3" name="page1"   value="<?= $xml->page[0]->menu; ?>" />
                     </form>
                 </li>
-
                 <li class="nav-item">
                     <form action="id2.html" method="POST">
                         <input type="submit" class="nav-link mx-3"  name="page2"   value="<?= $xml->page[1]->menu; ?>" />
@@ -55,7 +54,6 @@
                 </ul>
             </div>
         </nav>
-
         <div class="container">
             <div class="row">
                 <?php
@@ -73,7 +71,6 @@
                 ?>
             </div>
         </div>
-
         <footer>
             <div class="container">
                 <div class="row">
@@ -82,12 +79,10 @@
                     </div>
                     <div class="col-6">
                         <ul class="link-footer">
-                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo"> <a href="https://github.com/TonyRouyer">Github Tony</a></li>
-                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo"> <a href="https://github.com/BakariF">Github Bakari</a></li>
-                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo"> <a href="https://github.com/MaximePag/">Github Maxime</a></li>
-                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo"> <a href="https://github.com/jeromeclauet">Github Jérome</a></li>
-
-
+                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo" /><a href="https://github.com/TonyRouyer">Github Tony</a></li>
+                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo" /><a href="https://github.com/BakariF">Github Bakari</a></li>
+                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo" /><a href="https://github.com/MaximePag/">Github Maxime</a></li>
+                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo" /><a href="https://github.com/jeromeclauet">Github Jérome</a></li>
                         </ul>
                     </div>
                 </div>
