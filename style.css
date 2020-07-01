@@ -26,6 +26,31 @@ footer {
     padding: 15px;
     color: white;
 }
+.nav-link:hover{
+    animation-name: degueuButton;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes degueuButton{
+    0%   {background-color:#ed70ed; color:green}
+    25%  {background-color:yellow; color:purple}
+    50%  {background-color:blue; color:#582900}
+    75%  {background-color:green; color:orangered}
+    100% {background-color:red; color:turquoise}
+}
+.img:hover{
+    animation-name: imageTimide;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;  
+}
+@keyframes imageTimide{
+    0%   {left: 5%;}
+    25%  {left: 10%;}
+    50%  {left: 15%;}
+    75%  {left: 20%;}
+    100% {left: 25%; opacity: 0;}
+}
 .navbar{
     padding: 0;
     background-color: #582900;
