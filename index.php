@@ -15,44 +15,56 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <form action="index.php" method="POST">
-                        <input type="submit" class="nav-link mx-3" name="page1"   value="page1" />
+                    <form action="id1.html" method="POST">
+                        <input type="submit" class="nav-link mx-3" name="page1"   value="Index" />
                     </form>
                 </li>
 
                 <li class="nav-item">
-                    <form action="index.php" method="POST">
-                        <input type="submit" class="nav-link mx-3"  name="page2"   value="page2" />
+                    <form action="id2.html" method="POST">
+                        <input type="submit" class="nav-link mx-3"  name="page2"   value="Qui somme nous ?" />
                     </form>
                 </li>
                 <li class="nav-item">
-                    <form action="index.php" method="POST">
-                        <input type="submit" class="nav-link mx-3"  name="page3" value="page3" />
+                    <form action="id3.html" method="POST">
+                        <input type="submit" class="nav-link mx-3"  name="page3" value="Avis" />
                     </form>
                 </li>
                 <li class="nav-item">
-                    <form action="index.php" method="POST">
-                        <input type="submit" class="nav-link mx-3"  name="page4"  value="page4" />
+                    <form action="id4.html" method="POST">
+                        <input type="submit" class="nav-link mx-3"  name="page4"  value="Contact" />
                     </form>
                 </li>
                 </ul>
             </div>
         </nav>
+        <div class="container">
+            <div class="row">
+                <?php
+                    $xml = simplexml_load_file("source.xml") or die("Error: Cannot create object");
+                    if(isset($_POST['page1'])) {
+                        echo $xml->page[0]->content;
+                    } else if (isset($_POST['page2'])) {
+                        echo $xml->page[1]->content;
+                    } else if (isset($_POST['page3'])) {
+                        echo $xml->page[2]->content;
+                    }else if (isset($_POST['page4'])) {
+                        echo $xml->page[3]->content;
+                    }else {
+                        echo $xml->page[0]->content;
+                    }
+                ?>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="container">
+                <div class="row">
+
+                </div>
+            </div>
+        </footer>
 
 
-        <?php
-        $xml = simplexml_load_file("source.xml") or die("Error: Cannot create object");
-        if(isset($_POST['page1'])) {
-            echo $xml->page[0]->content;
-        } else if (isset($_POST['page2'])) {
-            echo $xml->page[1]->content;
-        } else if (isset($_POST['page3'])) {
-            echo $xml->page[2]->content;
-        }else if (isset($_POST['page4'])) {
-            echo $xml->page[3]->content;
-        }else {
-            echo $xml->page[0]->content;
-        }
-        ?>
     </body>
 </html>
