@@ -1,0 +1,6 @@
+RewriteEngine On
+
+RewriteRule ^id1.html$ index.php
+RewriteRule ^id2.html$ index.php
+RewriteRule ^id3.html$ index.php
+RewriteRule ^id4.html$ index.php
