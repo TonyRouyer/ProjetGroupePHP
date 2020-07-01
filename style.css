@@ -24,11 +24,11 @@ footer {
 .nav-link{
     background-color: #CDCD0D;
     padding: 15px;
-    color: white;
+    color: black;
 }
 .nav-link:hover{
     animation-name: degueuButton;
-    animation-duration: 1s;
+    animation-duration: 0.3s;
     animation-iteration-count: infinite;
 }
 @keyframes degueuButton{
@@ -41,15 +41,21 @@ footer {
 .img:hover{
     animation-name: imageTimide;
     animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;  
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+.form-control:focus, iframe:hover{
+    animation-name: imageTimide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 @keyframes imageTimide{
-    0%   {left: 5%;}
-    25%  {left: 10%;}
-    50%  {left: 15%;}
-    75%  {left: 20%;}
-    100% {left: 25%; opacity: 0;}
+    0%   {left: 1%; right: 5%; top: 5%;}
+    25%  {left: 2%; right: 6%; top: 6%;}
+    50%  {left: 3%; right: 10%; top: 10%;}
+    75%  {left: 4%; right: 15%; top: 20%;}
+    100% {left: 5%; right: 25%; top: 40%; opacity: 0;}
 }
 .navbar{
     padding: 0;
