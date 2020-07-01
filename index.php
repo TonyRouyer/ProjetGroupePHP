@@ -1,10 +1,27 @@
+<?php $xml = simplexml_load_file("source.xml") or die("Error: Cannot create object"); ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Projet groupe PHP</title>
+        <title>                
+            <?php
+                    if(isset($_POST['page1'])) {
+                        echo $xml->page[0]->title;
+                    } else if (isset($_POST['page2'])) {
+                        echo $xml->page[1]->title;
+                    } else if (isset($_POST['page3'])) {
+                        echo $xml->page[2]->title;
+                    }else if (isset($_POST['page4'])) {
+                        echo $xml->page[3]->title;
+                    }else {
+                        echo $xml->page[0]->title;
+                    }
+                ?>
+        </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" style="text/css" href="style.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -38,10 +55,10 @@
                 </ul>
             </div>
         </nav>
+
         <div class="container">
             <div class="row">
                 <?php
-                    $xml = simplexml_load_file("source.xml") or die("Error: Cannot create object");
                     if(isset($_POST['page1'])) {
                         echo $xml->page[0]->content;
                     } else if (isset($_POST['page2'])) {
@@ -56,7 +73,7 @@
                 ?>
             </div>
         </div>
-        
+
         <footer>
             <div class="container">
                 <div class="row">
