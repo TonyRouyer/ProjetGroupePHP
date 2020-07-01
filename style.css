@@ -16,8 +16,8 @@ footer {
 .link-footer {
     margin: 20px 0;
     list-style: none;
+    margin-left: 100px;
 }
-
 .link-footer img{
     margin: 10px;
 }
