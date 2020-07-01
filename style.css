@@ -21,3 +21,12 @@ footer {
 .link-footer img{
     margin: 10px;
 }
+.nav-link{
+    background-color: #CDCD0D;
+    padding: 15px;
+    color: white;
+}
+.navbar{
+    padding: 0;
+    background-color: #582900;
+}
