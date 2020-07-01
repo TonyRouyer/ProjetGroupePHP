@@ -4,3 +4,20 @@
 body {
     background-color: #CDCD0D;
 }
+footer {
+    background-color: #582900;
+}
+.small {
+    color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.link-footer {
+    margin: 20px 0;
+    list-style: none;
+}
+
+.link-footer img{
+    margin: 10px;
+}

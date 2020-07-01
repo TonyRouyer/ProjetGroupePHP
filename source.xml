@@ -86,7 +86,7 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
     <li class="list-group-item list-group-item-success">Ou écrivez-nous à cette adresse email : contact@ocordo-travaux.fr</li>
     <li class="list-group-item list-group-item-warning">Ou compétez le formulaire ci-dessous :</li>
 </ul>
-<div role="form" class="col-12 mt-3">
+<div role="form" class="col-12 my-3">
     <form action="/contact-devis#f69-p47-o1" method="post" class="form" novalidate="novalidate">
         <label class="my-2">Votre nom * :</label><input name="your-name" value="" size="40" class="form-control text validates-as-required form-control" type="text">
         <label class="my-2">Votre email :</label><input name="your-email" value="" size="40" class="form-control text email validates-as-email form-control"  type="email">

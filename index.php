@@ -25,7 +25,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Site des bogoss</a>
+            <a class="navbar-brand" href="#">OCCORDO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -77,7 +77,19 @@
         <footer>
             <div class="container">
                 <div class="row">
+                    <div class="col-6">
+                        <p class="small">Un site by LesBogoss</p>
+                    </div>
+                    <div class="col-6">
+                        <ul class="link-footer">
+                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo"> <a href="https://github.com/TonyRouyer">Github Tony</a></li>
+                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo"> <a href="https://github.com/BakariF">Github Bakari</a></li>
+                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo"> <a href="https://github.com/MaximePag/">Github Maxime</a></li>
+                            <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo"> <a href="https://github.com/jeromeclauet">Github Jérome</a></li>
 
+
+                        </ul>
+                    </div>
                 </div>
             </div>
         </footer>
