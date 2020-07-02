@@ -9,11 +9,11 @@
 <p class="col-12 text-justify">Nous pouvons assurer tous vos travaux de tout corps d’état.</p>
 <h2 class="col-12 text-center">Nos dernières réalisations à Nantes</h2>
 <div class="gallery_box_single row text-center">
-    <div class="img col-4"><img class="shadow-lg p-3 mb-3" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
-    <div class="img col-4"><img class="shadow-lg p-3 mb-3" src="assets/img/Travaux-de-renovation-…-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
-    <div class="img col-4"><img class="shadow-lg p-3 mb-3" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
-    <div class="img col-6"><img class="shadow-lg p-3 mb-3" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
-    <div class="img col-6"><img class="shadow-lg p-3 mb-3" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
+    <div class="img col-lg-4 col-md-12"><img class="shadow-lg p-3 mb-3" src="assets/img/Renovation-appartement-nantes-ocordo-travaux-300-225.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>
+    <div class="img col-lg-4 col-md-12"><img class="shadow-lg p-3 mb-3" src="assets/img/Travaux-de-renovation-…-nantes-300-225.jpg" alt="Aménagement de comble à Nantes"/><p class="caption-text">Aménagement de comble à Nantes</p></div>
+    <div class="img col-lg-4 col-md-12"><img class="shadow-lg p-3 mb-3" src="assets/img/entreprise-de-renovation-OCORDO-300-225.jpg" alt="Rénovation d'une maison à Nantes"/><p class="caption-text">Rénovation d'une maison à Nantes</p></div>
+    <div class="img col-lg-6 col-md-12"><img class="shadow-lg p-3 mb-3" src="assets/img/renovation-appartement-nantes-300-225.jpg" alt="Travaux de rénovation dans un appartement à Nantes"/><p class="caption-text">Travaux de rénovation dans un appartement à Nantes</p></div>
+    <div class="img col-lg-6 col-md-12"><img class="shadow-lg p-3 mb-3" src="assets/img/societe-de-renovation-a-nantes-2.jpg" alt="Rénovation d'un appartement à Nantes"/><p class="caption-text">Rénovation d'un appartement à Nantes</p></div>	
 </div>
 ]]></content>
     </page>
@@ -25,9 +25,9 @@
 <h3 class="col-12">Présentation de notre entreprise</h3>
 <p class="col-12">Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation d’appartements et de maisons et de construction d’extensions horizontale ou verticale de maisons.</p>
 <p class="text-center col-12">Nous travaillons exclusivement pour les particuliers.</p>
-<p class="col-12 text-center"><iframe src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p>
+<p class="col-12"><iframe class="col-12" src="https://www.youtube.com/embed/Crh5lFpNK0o?feature=oembed" allowfullscreen="" width="500" height="281" frameborder="0"></iframe></p>
 <p>Notre groupement est en mesure de vous proposer les compétences métier dans le gros oeuvre et le second oeuvre :</p><p>
-<ul>
+<ul class="list-group">
     <li class="list-group-item list-group-item-danger">Maçonnerie générale</li>
     <li class="list-group-item list-group-item-warning">Travaux de toiture</li>
     <li class="list-group-item list-group-item-light">Isolation thermique et phonique</li>
@@ -46,11 +46,11 @@ Quels sont les avantages en travaillant avec notre groupement ? Simplicité, Sé
 Pourquoi la Simplicité ? Parce que vous avez un seul interlocuteur qui est disponible de la préparation au chiffrage de l’ensemble de vos travaux.</p><p>
 
     Pourquoi la Sécurité ? Par ce que pour élaborer votre projet de travaux de rénovation ou de construction d’extension nous :</p><p>
-<ul>   
-    <li>fixons un premier rendez-vous au cours duquel nous vous écoutons nous parlez de votre projet de travaux. À ce stade nous pouvons déjà vous conseiller.</li>
-<li>établissons un chiffrage détaillé lot par lot.</li>
-<li>vous remettons un dossier-devis comprenant les devis détaillés avec les dates prévisionnelles de début et de fin d’intervention,les assurances décennales et la RC professionnelle,</li>
-<li>vous remettons un résumé pratique vous expliquant l’exécution de vos travaux.</li>
+<ul class="list-group">   
+    <li class="list-group-item list-group-item-danger">fixons un premier rendez-vous au cours duquel nous vous écoutons nous parlez de votre projet de travaux. À ce stade nous pouvons déjà vous conseiller.</li>
+    <li class="list-group-item list-group-item-warning">établissons un chiffrage détaillé lot par lot.</li>
+    <li class="list-group-item list-group-item-danger">vous remettons un dossier-devis comprenant les devis détaillés avec les dates prévisionnelles de début et de fin d’intervention,les assurances décennales et la RC professionnelle,</li>
+    <li class="list-group-item list-group-item-warning">vous remettons un résumé pratique vous expliquant l’exécution de vos travaux.</li>
 </ul>
 <p>Toutes les entreprises du bâtiment de notre groupement travaillent en direct sans aucune sous traitance.</p>
 
@@ -80,9 +80,9 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
         <menu>Contact</menu>
         <title>Contactez nous - Maçonnerie Ocordo</title>
         <content><![CDATA[<h1 class="col-12 text-center">Contact et Devis</h1>    
-<p class="col-12 text-center"><iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
+<p class="col-12"><iframe style="border: 0;" class="col-12" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10840.441212216989!2d-1.562078!3d47.214424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x10a23dc1d980bca7!2sOcordo+Travaux+Nantes!5e0!3m2!1sfr!2sfr!4v1434122059096" width="600" height="450" frameborder="0"></iframe></p>
 <p class="col-12">POUR OBTENIR UN DEVIS GRATUIT 3 POSSIBILITÉS :</p>
-<ul class="list-group list-group ml-3">
+<ul class="list-group">
     <li class="list-group-item list-group-item-primary">Téléphonez-nous au 02.51.84.18.24</li>
     <li class="list-group-item list-group-item-success">Ou écrivez-nous à cette adresse email : contact@ocordo-travaux.fr</li>
     <li class="list-group-item list-group-item-warning">Ou compétez le formulaire ci-dessous :</li>

@@ -17,7 +17,6 @@ footer {
 .link-footer {
     margin: 20px 0;
     list-style: none;
-    margin-left: 100px;
 }
 .link-footer img{
     margin: 10px;
@@ -46,7 +45,7 @@ footer {
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
-.form-control:focus, iframe:hover{
+.form-control:focus{
     animation-name: imageTimide;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -73,4 +72,8 @@ footer:hover{
     50%  {background-color:blue; color:#582900}
     75%  {background-color:green; color:orangered}
     100% {background-color:red; color:turquoise}
+}
+iframe {
+    width: 100vw;
+    margin-top: 0 auto;
 }
