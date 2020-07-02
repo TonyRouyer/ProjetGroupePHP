@@ -26,6 +26,7 @@
     <body>
     <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand text-white ml-3" href="#">OCORDO</a>
+            <img id="mario" src="assets/img/mario.gif"/>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><img src="assets/img/bk.png"/></span>
             </button>
@@ -54,6 +55,7 @@
                 </ul>
             </div>
         </nav>
+        <img id="wow" src="assets/img/wow.gif"/>
         <div class="container">
             <div class="row">
                 <?php
@@ -75,21 +77,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6">
+                    <img id="nyan" onclick="nyanAnim()" src="assets/img/nyancat.gif"/>
                         <p class="small">Un site by LesBogoss</p>
                     </div>
-                    <div class="col-6">
-                        <ul class="link-footer">
+                    <div class="col-4">
+                    <img id="kirby" src="assets/img/kirby.gif"/>
+                        <ul id="github" class="link-footer">
                             <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo" /><a href="https://github.com/TonyRouyer">Github Tony</a></li>
                             <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo" /><a href="https://github.com/BakariF">Github Bakari</a></li>
                             <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo" /><a href="https://github.com/MaximePag/">Github Maxime</a></li>
                             <li><img src="assets/img/GitHub-Mark-32px.png" alt="githublogo" /><a href="https://github.com/jeromeclauet">Github Jérome</a></li>
                         </ul>
                     </div>
+                    <div class="col-2"><img id="kirby0" onclick="kirbyAnim()" src="assets/img/kirby0.png"/></div>
                 </div>
             </div>
         </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
     </body>
 </html>
