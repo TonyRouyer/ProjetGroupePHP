@@ -27,28 +27,28 @@
     <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand text-white ml-3" href="#">OCORDO</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"><img src="assets/img/bk.png"/></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
                     <form action="id1.html" method="POST">
-                        <input type="submit" class="nav-link mx-3" name="page1"   value="<?= $xml->page[0]->menu; ?>" />
+                        <input type="submit" class="nav-link mx-auto my-2" name="page1"   value="<?= $xml->page[0]->menu; ?>" />
                     </form>
                 </li>
                 <li class="nav-item">
                     <form action="id2.html" method="POST">
-                        <input type="submit" class="nav-link mx-3"  name="page2"   value="<?= $xml->page[1]->menu; ?>" />
+                        <input type="submit" class="nav-link mx-auto my-2"  name="page2"   value="<?= $xml->page[1]->menu; ?>" />
                     </form>
                 </li>
                 <li class="nav-item">
                     <form action="id3.html" method="POST">
-                        <input type="submit" class="nav-link mx-3"  name="page3" value="<?= $xml->page[2]->menu; ?>" />
+                        <input type="submit" class="nav-link mx-auto my-2"  name="page3" value="<?= $xml->page[2]->menu; ?>" />
                     </form>
                 </li>
                 <li class="nav-item">
                     <form action="id4.html" method="POST">
-                        <input type="submit" class="nav-link mx-3"  name="page4"  value="<?= $xml->page[3]->menu; ?>" />
+                        <input type="submit" class="nav-link mx-auto my-2"  name="page4"  value="<?= $xml->page[3]->menu; ?>" />
                     </form>
                 </li>
                 </ul>

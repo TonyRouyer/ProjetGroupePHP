@@ -1,6 +1,7 @@
 * {
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
+    cursor: url(assets/img/diamond.png), auto;
 }
 body {
     background-image: url('assets/img/fond.jpg');
@@ -73,7 +74,11 @@ footer:hover{
     75%  {background-color:green; color:orangered}
     100% {background-color:red; color:turquoise}
 }
-iframe {
+iframe{
     width: 100vw;
     margin-top: 0 auto;
+}
+span img{
+    width: 30px;
+    height: 30px;
 }
